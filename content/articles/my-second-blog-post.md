@@ -1,10 +1,7 @@
-```js{1,3-5}[server.js]
-const http = require('http')
-const bodyParser = require('body-parser')
+---
+title: nuxt/contentでサクッとブログを作る2
+date: 2020.12.01
+category: dev
+---
 
-http.createServer((req, res) => {
-  bodyParser.parse(req, (error, body) => {
-    res.end(body)
-  })
-}).listen(3000)
-```
+# Hello
