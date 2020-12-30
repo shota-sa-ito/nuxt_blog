@@ -1,6 +1,9 @@
 ---
-title: My first Blog Post
-description: Learning how to use @nuxt/content to create a blog
-img: first-blog-post.jpg
-alt: my first blog post
+title: Home
 ---
+
+## HTML
+
+## aaaa
+
+<p><span class="note">A mix of <em>Markdown</em> and <em>HTML</em>.</span></p>
