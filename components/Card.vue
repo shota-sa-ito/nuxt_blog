@@ -22,6 +22,10 @@ export default {
   },
   computed: {
     categorys() {
+      if (!this.category) {
+          return null
+      }
+
       return this.category.split(' ')
     }
   }
