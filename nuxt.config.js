@@ -39,6 +39,18 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
     markdown: {
+      remarkPlugins: [
+        'remark-squeeze-paragraphs',
+        'remark-slug',
+        'remark-autolink-headings',
+        'remark-external-links',
+        'remark-footnotes'
+      ],
+      rehypePlugins: [
+        'rehype-sort-attribute-values',
+        'rehype-sort-attributes',
+        'rehype-raw'
+      ],
       prism: {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
